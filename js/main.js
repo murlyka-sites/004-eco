@@ -3,7 +3,7 @@ $(document).ready(function() {
 	$(".slider__first").slick({
 		slidesToShow: 8,
 		lazyLoad: 'progressive',
-		asNavFor: '.slider__second',
+		asNavFor: '.slider__second, .slider__triple',
 		appendArrows: "#slider-arrows"
 		// ,
 		// lazyLoad: 'progressive',
@@ -22,6 +22,19 @@ $(document).ready(function() {
 		arrows: false
 
 	})
+
+	$(".slider__triple").slick({
+		slidesToShow: 8,
+		lazyLoad: 'progressive'
+		// ,
+		// lazyLoad: 'progressive',
+		// responsive: [{
+		// 	breakpoint: 600,
+		// 	settings: {
+		// 		slidesToShow: 9
+		// 	}
+		// }]
+	});
 
 	$(".slider__main").slick({
 		autoplay: true,
