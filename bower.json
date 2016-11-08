@@ -1,0 +1,26 @@
+{
+  "name": "004-eco",
+  "description": "",
+  "main": "gulpfile.js",
+  "authors": [
+    "Millok Murlyka"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/murlyka-sites/004-eco",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "./bower",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "fancybox": "^2.1.5",
+    "slick-carousel": "^1.6.0",
+    "jquery": "^3.1.1",
+    "wow": "^1.1.2",
+    "jquery.maskedinput": "^1.4.1",
+    "jquery_lazyload": "^1.9.1"
+  }
+}
