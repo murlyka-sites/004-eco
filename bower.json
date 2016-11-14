@@ -22,5 +22,8 @@
     "wow": "^1.1.2",
     "jquery.maskedinput": "^1.4.1",
     "jquery_lazyload": "^1.9.1"
+  },
+  "devDependencies": {
+    "bootstrap": "^3.3.7"
   }
 }
