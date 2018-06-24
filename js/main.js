@@ -50,7 +50,7 @@ $(document).ready(function() {
 		margin: 10
 	});
 
-	
+
 
 	$(".input--phone").mask("+7 (999) 999-99-99");
 
@@ -118,7 +118,7 @@ $(document).ready(function () {
 				if (target.offset().top - offset <= scroll_top && target.offset().top + target.outerHeight() > scroll_top ) {
 					$(menu_selector + " li.active").removeClass("active");
 					$(this).parent().addClass("active");
-					
+
 				} else {
 					$(this).removeClass("active");
 				}
@@ -126,7 +126,7 @@ $(document).ready(function () {
 	});
 
 
-	
+
 });
 
 $(window).on('load', function() {
@@ -141,7 +141,7 @@ $(window).on('load', function() {
 		if($(window).scrollTop()!="0"){
 			$(this).fadeIn("slow")
 		}
-		
+
 		var scrollDiv=$(this);
 		$(window).scroll(function(){
 			if($(window).scrollTop()=="0"){
@@ -150,7 +150,7 @@ $(window).on('load', function() {
 				$(scrollDiv).fadeIn("slow")
 			}
 		});
-	
+
 		$(this).click(function(){
 			$("html, body").animate({scrollTop:0},"slow")
 		})
@@ -166,4 +166,4 @@ $(function() {
 
 $(window).bind("load", function() {
     var timeout = setTimeout(function() { $("img.lazy").trigger("sporty") }, 1000);
-}); 
+});
