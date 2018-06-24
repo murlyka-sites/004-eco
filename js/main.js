@@ -129,11 +129,11 @@ $(document).ready(function () {
 
 });
 
-$(window).on('load', function() {
-	// if(!isMobile.any) {
-		new WOW().init();
-	// }
-});
+// $(window).on('load', function() {
+// 	// if(!isMobile.any) {
+// 		new WOW().init();
+// 	// }
+// });
 
 (function($) {
 	$.fn.scrollToTop=function(){
